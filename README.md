@@ -4,7 +4,7 @@ Este repositorio contiene el diseño e implementación desde cero de una bibliot
 
 El objetivo central de la arquitectura fue garantizar un sistema fuertemente tipado, modular y extensible que minimice el acoplamiento ante futuras modificaciones estructurales.
 
-## 📊 Características Principales
+## Características Principales
 
 * **Engine de Datos Nativo:** Estructuras de datos eficientes para representar filas, columnas y celdas individuales sin librerías de terceros.
 * **Manejo de Tipos Fuertemente Tipado:** Implementación de polimorfismo y genéricos para soportar tipos de datos homogéneos por columna (`Integer`, `Double`, `Boolean`, `String`) y gestión explícita de valores faltantes (`CeldaNA`).
@@ -14,7 +14,7 @@ El objetivo central de la arquitectura fue garantizar un sistema fuertemente tip
 
 ---
 
-## 📐 Decisiones de Diseño y Arquitectura
+## Decisiones de Diseño y Arquitectura
 
 ### 1. Jerarquía de Componentes Homogéneos
 Para mitigar la rigidez de la herencia tradicional, el motor se estructuró a través de un componente base unificado:
@@ -30,7 +30,7 @@ Se diseñó un subsistema de control de fallas con excepciones personalizadas de
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 └── src/
